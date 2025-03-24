@@ -8,6 +8,7 @@
 pkgs.mkShellNoCC {
   packages = with pkgs; [
     nodejs_18
+    wrangler
   ];
 
   shellHook = ''
