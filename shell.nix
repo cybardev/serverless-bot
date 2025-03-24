@@ -5,7 +5,7 @@
   },
   ...
 }:
-pkgs.mkShell {
+pkgs.mkShellNoCC {
   packages = with pkgs; [
     nodejs_18
   ];
