@@ -1,5 +1,8 @@
 # Cloudflare worker example app
 
+> [!CAUTION]
+> This README is from the original repository. In its current state it just sends back a preset message.
+
 awwbot is an example app that brings the cuteness of `r/aww` straight to your Discord server, hosted on Cloudflare workers. Cloudflare Workers are a convenient way to host Discord bots due to the free tier, simple development model, and automatically managed environment (no VMs!).
 
 The tutorial for building awwbot is [in the developer documentation](https://discord.com/developers/docs/tutorials/hosting-on-cloudflare-workers)
