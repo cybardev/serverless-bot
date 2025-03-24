@@ -3,9 +3,9 @@
  * and registration.
  */
 
-export const AWW_COMMAND = {
-  name: 'awwww',
-  description: 'Drop some cuteness on this channel.',
+export const NOTE_COMMAND = {
+  name: 'note',
+  description: 'Send a preset note to this chat.',
 };
 
 export const INVITE_COMMAND = {
