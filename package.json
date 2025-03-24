@@ -1,7 +1,7 @@
 {
-  "name": "awwbot",
-  "version": "1.0.0",
-  "description": "A simple discord bot that uses intents to post pictures from r/aww",
+  "name": "serverless-bot",
+  "version": "0.0.1",
+  "description": "A simple discord bot that uses intents to send a preset message to chat",
   "type": "module",
   "private": true,
   "main": "src/server.js",
@@ -15,7 +15,7 @@
     "publish": "wrangler deploy"
   },
   "keywords": [],
-  "author": "Justin Beckwith <justin.beckwith@gmail.com>",
+  "author": "cybardev <sheikh@cybar.dev>",
   "license": "MIT",
   "dependencies": {
     "discord-interactions": "^4.0.0",
